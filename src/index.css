@@ -7,3 +7,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.animated-img {
+  animation: upAndDown 2s ease-in-out infinite;
+}
+
+@keyframes upAndDown {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px); /* Adjust this value for the desired height of animation */
+  }
+}

@@ -64,7 +64,7 @@ function Header() {
                                 <Link
                                     to="about-section"
                                     smooth={true}
-                                    className="block py-2 pl-3 pr-4 cursor-pointer md:hover:text-blue-700 rounded md:bg-transparent md:p-0"
+                                    className="block py-2 pl-3 pr-4 cursor-pointer md:hover:text-customOrange rounded md:bg-transparent md:p-0"
                                 >
                                     About Me
                                 </Link>
@@ -73,7 +73,7 @@ function Header() {
                                 <Link
                                     to="skills-section"
                                     smooth={true}
-                                    className="block py-2 pl-3 pr-4 cursor-pointer text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                                    className="block py-2 pl-3 pr-4 cursor-pointer text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange md:p-0"
                                 >
                                     Skills
                                 </Link>
@@ -82,7 +82,7 @@ function Header() {
                                 <Link
                                     to="work-experience-section"
                                     smooth={true}
-                                    className="block py-2 pl-3 pr-4 cursor-pointer text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                                    className="block py-2 pl-3 pr-4 cursor-pointer text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange md:p-0"
                                 >
                                     Work Experience
                                 </Link>
@@ -91,7 +91,7 @@ function Header() {
                                 <Link
                                     to="projects-section"
                                     smooth={true}
-                                    className="block py-2 pl-3 pr-4 cursor-pointer text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                                    className="block py-2 pl-3 pr-4 cursor-pointer text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange md:p-0"
                                 >
                                     Projects
                                 </Link>
@@ -100,7 +100,7 @@ function Header() {
                                 <Link
                                     to="contact-section"
                                     smooth={true}
-                                    className="block py-2 pl-3 pr-4 cursor-pointer text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                                    className="block py-2 pl-3 pr-4 cursor-pointer text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange md:p-0"
                                 >
                                     Contact
                                 </Link>
