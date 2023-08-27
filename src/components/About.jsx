@@ -12,7 +12,7 @@ function About() {
 
     return (
         <>
-            <div className="min-h-screen flex justify-center items-center bg-slate-300">
+            <div className="min-h-screen flex justify-center items-center bg-slate-300" id="about-section">
                 <div className="text-5xl font-bold text-gr" data-aos="fade-up">
                     About Section
                 </div>

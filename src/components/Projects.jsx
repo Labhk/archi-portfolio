@@ -12,7 +12,7 @@ function Projects() {
 
     return (
         <>
-            <div className="min-h-screen flex justify-center items-center">
+            <div className="min-h-screen flex justify-center items-center" id="projects-section">
                 <div className="text-5xl font-bold text-gr" data-aos="fade-up">
                 Projects Section
                 </div>

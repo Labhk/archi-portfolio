@@ -12,7 +12,7 @@ function Contact() {
 
     return (
         <>
-            <div className="min-h-screen flex justify-center items-center bg-slate-300">
+            <div className="min-h-screen flex justify-center items-center bg-slate-300" id="contact-section">
                 <div className="text-5xl font-bold text-gr" data-aos="fade-up">
                 Contact Section
                 </div>

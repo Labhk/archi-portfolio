@@ -14,7 +14,7 @@ function HeroSection() {
 
     return (
         <>
-            <div className="min-h-screen flex justify-center items-center">
+            <div className="min-h-screen flex justify-center items-center" id='hero-section'>
                 <div className="text-5xl font-bold text-gr" data-aos="fade-up">
                     Hero Section
                 </div>

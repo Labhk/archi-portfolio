@@ -9,15 +9,15 @@ import WorkExperience from "./components/WorkExperience";
 function Home() {
 
   return (
-    <>
-      <Header/>
-      <HeroSection/>
-      <About/>
-      <Skills/>
-      <WorkExperience/>
-      <Projects/>
-      <Contact/>
-    </>
+      <>
+          <Header />
+          <HeroSection />
+          <About  />
+          <Skills />
+          <WorkExperience  />
+          <Projects  />
+          <Contact  />
+      </>
   )
 }
 
