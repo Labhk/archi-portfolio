@@ -12,8 +12,8 @@ function HeroSection() {
     }, []);
 
     return (
-        <div className="min-h-screen flex items-center px-14" id="hero-section">
-            <div className="flex-1 p-10" data-aos="fade-up">
+        <div className="min-h-screen flex items-center px-14 bg-slate-200" id="hero-section">
+            <div className="flex-1 p-10" data-aos="fade-up" data-aos-duration="1300">
                 <h1 className="text-5xl font-bold text-gray-900 mb-4">
                     I'm Shubh Khatke <br/>
                      Architect
@@ -35,7 +35,7 @@ function HeroSection() {
                 </button>
                 
             </div>
-            <div className="flex-1" data-aos="fade-left">
+            <div className="flex-1" data-aos="fade-left" data-aos-duration="1300">  
                 <img
                     src='/heroimg.jpg'
                     alt="Architect"

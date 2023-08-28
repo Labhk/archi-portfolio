@@ -18,7 +18,7 @@ function Header() {
 
     return (
         <>
-         <div className={`fixed top-0 w-full z-10 ${scrolled ? 'shadow-md' : ''}`}>
+         <div className={`fixed top-0 w-full z-30 ${scrolled ? 'shadow-md' : ''}`}>
             <nav className="bg-white border-gray-200">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5 px-14">
                     <Link

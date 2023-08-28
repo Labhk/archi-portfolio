@@ -12,8 +12,8 @@ function WorkExperience() {
 
     return (
         <>
-            <div className="min-h-screen flex justify-center items-center bg-slate-300" id="work-experience-section">
-                <div className="text-5xl font-bold text-gr" data-aos="fade-up">
+            <div className="min-h-screen flex justify-center items-center" id="work-experience-section">
+                <div className="text-5xl font-bold text-gr" data-aos="fade-up" data-aos-duration="1300">
                     WorkExperience Section
                 </div>
             </div>

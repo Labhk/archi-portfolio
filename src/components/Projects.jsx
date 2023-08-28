@@ -12,8 +12,8 @@ function Projects() {
 
     return (
         <>
-            <div className="min-h-screen flex justify-center items-center" id="projects-section">
-                <div className="text-5xl font-bold text-gr" data-aos="fade-up">
+            <div className="min-h-screen flex justify-center items-center bg-slate-200" id="projects-section">
+                <div className="text-5xl font-bold text-gr" data-aos="fade-up" data-aos-duration="1300">
                 Projects Section
                 </div>
                 
