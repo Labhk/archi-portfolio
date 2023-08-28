@@ -18,7 +18,7 @@ function Header() {
 
     return (
         <>
-         <div className={`fixed top-0 w-full z-30 ${scrolled ? 'shadow-md' : ''}`}>
+         <div className={`fixed top-0 w-full z-30 ${scrolled ? 'shadow-md' : ''}`} data-aos="fade-down" data-aos-duration="900">
             <nav className="bg-white border-gray-200">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5 px-14">
                     <Link
@@ -84,7 +84,7 @@ function Header() {
                                     smooth={true}
                                     className="block py-2 pl-3 pr-4 cursor-pointer text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange md:p-0"
                                 >
-                                    Work Experience
+                                    Experience
                                 </Link>
                             </li>
                             <li>

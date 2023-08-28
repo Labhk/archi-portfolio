@@ -22,6 +22,7 @@ function About() {
                         </div>
                         <div className="md:w-1/2 md:pl-20 mt-8 md:mt-10" data-aos="fade-left" data-aos-duration="1300">
                             <h2 className="text-5xl font-semibold mb-8">About Me</h2>
+                           
                             <p className="text-gray-700 text-lg">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum nulla ac commodo cursus. Sed nec metus id justo hendrerit feugiat. Proin iaculis tristique magna, et viverra nulla consequat quis.
                             </p>

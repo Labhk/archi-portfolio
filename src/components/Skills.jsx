@@ -14,6 +14,7 @@ function Skills() {
                 <div className="text-5xl font-bold text-gray-900" data-aos="fade-down" data-aos-duration="1300">
                     Skills
                 </div>
+                <hr className="w-14 h-0 my-4 mt-5 border-slate-500 border-[1.5px] rounded-full bg-black"   data-aos="fade-up" data-aos-duration="1600"/>
                 <div className="mt-[4rem] md:px-20 grid grid-cols-5  gap-4" data-aos="fade-up" data-aos-duration="1300">
                     <div className="flex flex-col py-3 px-6   rounded-2xl justify-center items-center">
                         <div className="h-14 mb-3">
