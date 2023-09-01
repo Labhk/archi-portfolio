@@ -2,23 +2,35 @@ import React, {useState, useEffect} from 'react';
 import { Link } from 'react-scroll';
 
 function Header() {
-
     const [dropdownOpen, setDropdownOpen] = useState(false);
+    const [prevScrollY, setPrevScrollY] = useState(0);
     const [scrolled, setScrolled] = useState(false);
 
     const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
 
-    const handleScroll = () => setScrolled(window.scrollY > 0);
+    const handleScroll = () => {
+        const currentScrollY = window.scrollY;
+
+        if (currentScrollY > prevScrollY) {
+            // Scrolling down, hide the header
+            setScrolled(true);
+        } else {
+            // Scrolling up, show the header
+            setScrolled(false);
+        }
+
+        setPrevScrollY(currentScrollY);
+    };
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    }, [prevScrollY]);
 
 
     return (
         <>
-         <div className={`fixed top-0 w-full z-30 ${scrolled ? 'shadow-md' : ''}`} data-aos="fade-down" data-aos-duration="900">
+         <div className={` top-0 w-full z-30 ${scrolled ? 'shadow-md' : 'fixed'}`} data-aos="fade-down" data-aos-duration="900">
             <nav className="bg-white border-gray-200">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5 px-14">
                     <Link
